@@ -28,8 +28,7 @@ function getAllPlants($connection){
     echo $d["de_name"];
     echo "|";
   }
-  
-  
+
 }
  
 //Verbindung schließen.
