@@ -9,7 +9,7 @@
     android:paddingBottom="16dp"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-    tools:context="com.example.android.budgetr.signup">
+    tools:context="ch.mse.mybudget.signup">
 
     <ImageView
         android:layout_width="86dp"
