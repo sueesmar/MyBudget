@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class login extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,12 +16,12 @@ public class login extends AppCompatActivity {
 
     public void onClickSignin(View v) {
         Button button=(Button) v;
-        startActivity(new Intent(getApplicationContext(), login.class));
+        startActivity(new Intent(getApplicationContext(), LoginActivity.class));
 
     }
     public void onClickSignup(View v) {
         Button button=(Button) v;
-        startActivity(new Intent(getApplicationContext(), signup.class));
+        startActivity(new Intent(getApplicationContext(), SignupActivity.class));
 
     }
 }

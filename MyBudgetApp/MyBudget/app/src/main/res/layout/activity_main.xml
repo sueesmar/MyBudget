@@ -26,28 +26,23 @@
         android:paddingBottom="10dp"
 
         />
-<Button
+    <Button
     android:id="@+id/signup_window"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="New to Budgetr"
     android:layout_margin="10dp"
     android:background="@drawable/signupbutton"
-    android:onClick="onClickSignup"
+    android:onClick="onClickSignup" />
 
-
-
-    />
     <Button
         android:id="@+id/signin_window"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-android:layout_margin="10dp"
+        android:layout_margin="10dp"
         android:text="Already using Budgetr"
         android:background="@drawable/signinbutton"
-        android:onClick="onClickSignin"
-
-        />
+        android:onClick="onClickSignin" />
 
 
 </LinearLayout>

@@ -1,10 +1,15 @@
 <resources>
-    <string name="app_name"></string>
-     <string
-         name="password"
-         >Password</string>
+    <string name="app_name">Budgetr</string>
+    <string name="password">Password</string>
+    <string name="email">E-mail</string>
 
-    <string
-        name="email"
-        >E-mail</string>
+
+    <string name="SpentThisMonth">Spent this month</string>
+    <string name="EarnedThisMonth">Earned this month</string>
+    <string name="ActualBalance">Actual Balance</string>
+    <string name="btn_show_earnings">My Earnings</string>
+    <string name="btn_show_expenditures">My Expenditures</string>
+
+    <string name="empty_earnings_title_text">No earnings so far</string>
+    <string name="empty_earnings_subtitle_text">Get a Job and start earning money :-)</string>
 </resources>

@@ -3,4 +3,7 @@
     <color name="colorPrimary">#2FDD86</color>
     <color name="colorPrimaryDark">#2FDD86</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorTextBalanceOverview">#FFFFFF</color>
+    <color name="colorBackgroundApp">#2FDD86</color>
+    <color name="colorTextEarningsOverview">#FFFFFF</color>
 </resources>
