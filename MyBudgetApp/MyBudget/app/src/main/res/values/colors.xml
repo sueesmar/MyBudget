@@ -6,4 +6,5 @@
     <color name="colorTextBalanceOverview">#FFFFFF</color>
     <color name="colorBackgroundApp">#2FDD86</color>
     <color name="colorTextEarningsOverview">#FFFFFF</color>
+    <color name="colorTextExpendituresOverview">#FFFFFF</color>
 </resources>

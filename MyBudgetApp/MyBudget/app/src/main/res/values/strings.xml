@@ -12,4 +12,9 @@
 
     <string name="empty_earnings_title_text">No earnings so far</string>
     <string name="empty_earnings_subtitle_text">Get a Job and start earning money :-)</string>
+    <string name="tv_currency">CHF</string>
+
+    <string name="unknown_expenditure_description">What you spent this for?</string>
+
+    <string name="unknown_earning_description">Where you earned this money?</string>
 </resources>
