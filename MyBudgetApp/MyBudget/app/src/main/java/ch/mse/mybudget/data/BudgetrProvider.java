@@ -113,7 +113,7 @@ public class BudgetrProvider extends ContentProvider {
                 selection = BudgetrContract.UserEntry._ID + "=?";
                 selectionArgs = new String[] { String.valueOf(ContentUris.parseId(uri)) };
 
-                // This will perform a query on the users table where the _id equals 3 to return a
+                // This will perform a query on the earnings table where the _id equals 3 to return a
                 // Cursor containing that row of the table.
                 cursor = database.query(BudgetrContract.UserEntry.TABLE_NAME, projection, selection, selectionArgs,
                         null, null, sortOrder);
@@ -138,10 +138,11 @@ public class BudgetrProvider extends ContentProvider {
                 selection = BudgetrContract.ExpenditureEntry._ID + "=?";
                 selectionArgs = new String[] { String.valueOf(ContentUris.parseId(uri)) };
 
-                // This will perform a query on the users table where the _id equals 3 to return a
+                // This will perform a query on the expenditures table where the _id equals 3 to return a
                 // Cursor containing that row of the table.
                 cursor = database.query(BudgetrContract.ExpenditureEntry.TABLE_NAME, projection, selection, selectionArgs,
                         null, null, sortOrder);
+                break;
             default:
                 throw new IllegalArgumentException("Cannot query unknown URI " + uri);
         }
@@ -395,7 +396,7 @@ public class BudgetrProvider extends ContentProvider {
         SQLiteDatabase database = mDbHelper.getWritableDatabase();
 
         // Perform the update on the database and get the number of rows affected
-        int rowsUpdated = database.update(BudgetrContract.SalaryEntry.TABLE_NAME, values, selection, selectionArgs);
+        int rowsUpdated = database.update(BudgetrContract.ExpenditureEntry.TABLE_NAME, values, selection, selectionArgs);
 
         // If 1 or more rows were updated, then notify all listeners that the data at the
         // given URI has changed
