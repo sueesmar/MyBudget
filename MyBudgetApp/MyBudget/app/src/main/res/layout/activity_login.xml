@@ -71,6 +71,7 @@
             />
         </LinearLayout>
     <Button
+        android:id="@+id/btn_continue_login"
         android:layout_width="319dp"
         android:layout_height="38dp"
         android:text="Cotinue >"

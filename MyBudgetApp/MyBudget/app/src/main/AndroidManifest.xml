@@ -19,7 +19,13 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".BalanceOverviewActivity" />
         <activity android:name=".ListEarningsActivity" />
-        <activity android:name=".ListExpendituresActivity"></activity>
+        <activity android:name=".ListExpendituresActivity" />
+        <activity android:name=".EditorEarningsActivity" />
+        <activity android:name=".EditorExpendituresActivity"></activity>
+        <provider
+            android:name=".data.BudgetrProvider"
+            android:authorities="ch.mse.myBudget"
+            android:exported="false" />
     </application>
 
 </manifest>

@@ -33,7 +33,7 @@ public class BudgetrContract {
      * looking at users data.
      * */
     public static final String PATH_USERS = "users";
-    public static final String PATH_EARNINGS = "earnings";
+    public static final String PATH_EARNINGS = "salary";
     public static final String PATH_EXPENDITURES = "expenditures";
 
 
@@ -82,7 +82,7 @@ public class BudgetrContract {
         public static final String CONTENT_ITEM_TYPE =
                 ContentResolver.CURSOR_ITEM_BASE_TYPE + "/" + CONTENT_AUTHORITY + "/" + PATH_EXPENDITURES;
 
-        public static final String TABLE_NAME = "expenditure";
+        public static final String TABLE_NAME = "expenditures";
         public static final String _ID = BaseColumns._ID;
         public static final String COLUMN_NAME_DESCRIPTION= "description";
         public static final String COLUMN_NAME_AMOUNT = "amount";

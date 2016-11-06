@@ -52,15 +52,15 @@ public class BudgetrDbHelper extends SQLiteOpenHelper {
                 + BudgetrContract.ExpenditureEntry.COLUMN_NAME_RECEIPT + " BLOB, "
                 + BudgetrContract.ExpenditureEntry.COLUMN_NAME_PLACE + " TEXT, "
                 + BudgetrContract.ExpenditureEntry.COLUMN_NAME_PAYMENTMETHODE + " TEXT, "
-                + BudgetrContract.ExpenditureEntry.COLUMN_NAME_USER_ID + " INTEGER)"
-                + " FOREIGN KEY (" + BudgetrContract.ExpenditureEntry.COLUMN_NAME_USER_ID + ") REFERENCES " + BudgetrContract.UserEntry.TABLE_NAME + " (" + BudgetrContract.UserEntry._ID + ");";
+                + BudgetrContract.ExpenditureEntry.COLUMN_NAME_USER_ID + " INTEGER,"
+                + " FOREIGN KEY (" + BudgetrContract.ExpenditureEntry.COLUMN_NAME_USER_ID + ") REFERENCES " + BudgetrContract.UserEntry.TABLE_NAME + "(" + BudgetrContract.UserEntry._ID + "));";
 
         String SQL_CREATE_SALARY_TABLE =  "CREATE TABLE " + BudgetrContract.SalaryEntry.TABLE_NAME + " ("
                 + BudgetrContract.SalaryEntry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
                 + BudgetrContract.SalaryEntry.COLUMN_NAME_SALARYMOUNT + " REAL NOT NULL, "
                 + BudgetrContract.SalaryEntry.COLUMN_NAME_SALARYDATE + " TEXT, "
                 + BudgetrContract.SalaryEntry.COLUMN_NAME_USER_ID + " INTEGER, "
-                + " FOREIGN KEY (" + BudgetrContract.SalaryEntry.COLUMN_NAME_USER_ID + ") REFERENCES " + BudgetrContract.UserEntry.TABLE_NAME + " (" + BudgetrContract.UserEntry._ID + ");";
+                + " FOREIGN KEY (" + BudgetrContract.SalaryEntry.COLUMN_NAME_USER_ID + ") REFERENCES " + BudgetrContract.UserEntry.TABLE_NAME + "(" + BudgetrContract.UserEntry._ID + "));";
 
         // Execute the SQL statement
         db.execSQL(SQL_CREATE_USERS_TABLE);

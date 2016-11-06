@@ -12,9 +12,17 @@
 
     <string name="empty_earnings_title_text">No earnings so far</string>
     <string name="empty_earnings_subtitle_text">Get a Job and start earning money :-)</string>
+    <string name="empty_expenditures_title_text">No expenditures so far</string>
+    <string name="empty_expenditures_subtitle_text">Good, but when you spent your money, add it here.</string>
     <string name="tv_currency">CHF</string>
 
     <string name="unknown_expenditure_description">What you spent this for?</string>
 
     <string name="unknown_earning_description">Where you earned this money?</string>
+    <string name="title_activity_editor_expenditures">EditorExpendituresActivity</string>
+
+    <string name="action_delete">Delete entry</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete_all_entries">Delete all</string>
+    <string name="action_insert_dummy_data">Insert dummy data</string>
 </resources>

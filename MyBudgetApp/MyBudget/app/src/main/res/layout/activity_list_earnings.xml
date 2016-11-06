@@ -19,7 +19,7 @@
 
     <!-- Empty view for the list -->
     <RelativeLayout
-        android:id="@+id/empty_view"
+        android:id="@+id/earnings_empty_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true">
@@ -43,7 +43,7 @@
             android:textAppearance="?android:textAppearanceMedium"/>
 
         <TextView
-            android:id="@+id/empty_subtitle_text"
+            android:id="@+id/empty_earnings_subtitle_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/empty_earnings_text"
