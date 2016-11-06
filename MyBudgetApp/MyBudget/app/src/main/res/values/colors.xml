@@ -7,4 +7,5 @@
     <color name="colorBackgroundApp">#2FDD86</color>
     <color name="colorTextEarningsOverview">#FFFFFF</color>
     <color name="colorTextExpendituresOverview">#FFFFFF</color>
+    <color name="colorTextEditorExpenditure">#FFFFFF</color>
 </resources>

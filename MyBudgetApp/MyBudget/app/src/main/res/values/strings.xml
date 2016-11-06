@@ -25,4 +25,12 @@
     <string name="action_save">Save</string>
     <string name="action_delete_all_entries">Delete all</string>
     <string name="action_insert_dummy_data">Insert dummy data</string>
+
+    <string name="editor_expenditures_description">Description</string>
+    <string name="hint_editor_expenditures_description">What you spent money for?</string>
+    <string name="tv_editor_expenditures_amount">Amount</string>
+    <string name="tv_editor_expenditures_date">Date</string>
+    <string name="tv_editor_expenditures_place">Place</string>
+    <string name="hint_editor_expenditures_place">Where you spent your money?</string>
+    <string name="hint_editor_expenditures_date">When you spent your money?</string>
 </resources>
